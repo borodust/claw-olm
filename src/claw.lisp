@@ -8,8 +8,7 @@
                   (:targets ((:and :x86-64 :linux) "x86_64-pc-linux-gnu"))
                   (:persistent :claw-olm-bindings
                    :asd-path "../claw-olm-bindings.asd"
-                   :bindings-path "../bindings/"
-                   :depends-on (:claw-utils))
+                   :bindings-path "../bindings/")
                   (:include-definitions "^(olm|OLM)_\\w+"))
   :in-package :%olm
   :trim-enum-prefix t
